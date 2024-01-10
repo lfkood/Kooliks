@@ -1,0 +1,37 @@
+[gd_scene load_steps=6 format=3 uid="uid://deb001xu8wt5f"]
+
+[ext_resource type="Texture2D" uid="uid://draptipv53w2y" path="res://Assets/Art/maailm/01/layer1.png" id="1_rbsx8"]
+[ext_resource type="Texture2D" uid="uid://dy2di6wos4hpy" path="res://Assets/Art/maailm/01/layer0.png" id="2_pajev"]
+[ext_resource type="Texture2D" uid="uid://ccqdjbetxgler" path="res://Assets/Art/maailm/01/house.png" id="3_muuy1"]
+[ext_resource type="Texture2D" uid="uid://cg1v2t7b1cqu3" path="res://Assets/Art/maailm/01/door.png" id="4_xjytg"]
+[ext_resource type="PackedScene" uid="uid://d0y7asbdrgj4v" path="res://mc.tscn" id="5_ipk87"]
+
+[node name="Maailm" type="Node2D"]
+
+[node name="01" type="Node2D" parent="."]
+scale = Vector2(8, 8)
+
+[node name="layer1" type="Sprite2D" parent="01"]
+z_index = 1
+texture = ExtResource("1_rbsx8")
+centered = false
+
+[node name="layer0" type="Sprite2D" parent="01"]
+texture = ExtResource("2_pajev")
+centered = false
+
+[node name="house" type="Node2D" parent="01"]
+z_index = 2
+
+[node name="house" type="Sprite2D" parent="01/house"]
+z_index = 1
+texture = ExtResource("3_muuy1")
+centered = false
+
+[node name="door" type="Sprite2D" parent="01/house"]
+texture = ExtResource("4_xjytg")
+centered = false
+
+[node name="main_character" parent="." instance=ExtResource("5_ipk87")]
+z_index = 1
+position = Vector2(241, 146)
