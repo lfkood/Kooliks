@@ -13,7 +13,7 @@ Selles githubi repos on mitu erinevat mängu, jaotatud kaustadesse
 - "Eeelprojekt"
 
 ### Kooli jaoks (Sinu jaoks Silja(saa terveks!))
-- "Unistus
+- "Unistuste"
 
 ## Mängimine
 Et mängimine mängu tuleb alla laadida
