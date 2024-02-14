@@ -20,6 +20,8 @@ Et mängimine mängu tuleb alla laadida
 - Mängu kood (Vajuta ülevalt code ja siis download zip või kasuta Giti)
 - [Godot](https://godotengine.org/download/)
 
+[esitlus](https://docs.google.com/presentation/d/1xX-Eajj5RSICgnZyhSqV8mHkJMDB9GXzkFQmYNPGeRc/edit?usp=sharing)
+
 
 
 
